@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Designer - Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+  <!-- Header / Hero Section -->
+  <header id="home">
+    <!-- Hamburger Menu -->
+    <button id="menu-toggle" aria-label="Open menu">
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Menu Navigasi -->
+    <nav id="main-nav">
+      <!-- Close Button -->
+      <button id="close-menu" aria-label="Close menu">
+        <i class="fas fa-times"></i>
+      </button>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Portfolio</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="blog.html" class="active">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="hero-left">
+      <h3>Hello World,</h3>
+      <h2>I'm Samuel Parlindungan Siringo-Ringo</h2>
+      <h1>Web</br> Designer</br></h1>
+      <br>
+      <a href="#">Learn More</a>
+
+    </div>
+    <div class="hero-right">
+      <div class="profile-container">
+        <img src="img/profile.png" alt="Foto Profil" />
+        <div class="social-media">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- About Me -->
+  <section id="about">
+    <div class="about-content">
+      <div class="about-image">
+        <img src="img/about.png" alt="Foto About" />
+      </div>
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>
+          Seorang web designer kreatif dengan pengalaman lebih dari 2 tahun di dunia digital.
+          Saya menggabungkan keahlian teknis dengan sentuhan artistik untuk menciptakan website
+          yang tidak hanya menarik secara visual, tetapi juga mudah digunakan dan responsif.
+        </p>
+        <div class="skills">
+          <div class="skill">
+            <label>UX</label>
+            <div class="slider">
+              <div class="slider-fill" style="width: 80%;"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <label>Website Design</label>
+            <div class="slider">
+              <div class="slider-fill" style="width: 70%;"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <label>App Design</label>
+            <div class="slider">
+              <div class="slider-fill" style="width:90%;"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <label>Graphic Design</label>
+            <div class="slider">
+              <div class="slider-fill" style="width: 85%;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+
+  <!-- Why Hire Me -->
+  <section id="why-hire-me">
+    <h2>
+      <span class="white-text">Why</span>
+      <span class="primary-text">Hire Me?</span>
+    </h2>
+    <div class="why-hire-description">
+      <p>
+        Pilih saya untuk mengubah visi digital Anda menjadi kenyataan. Dengan pendekatan yang detail
+        dan inovatif, saya selalu memastikan setiap proyek mendapatkan perhatian penuh, menghasilkan
+        solusi desain yang elegan, efektif, dan kreatif.
+      </p>
+    </div>
+    <br>
+    <h3 class="white-text">25+</h3>
+    <p>Projects Completed</p>
+    <br>
+    <a href="#">Contact Me</a>
+  </section>
+
+
+  <!-- My Projects / Portfolio -->
+  <section id="projects">
+    <h2>My Projects</h2>
+    <!-- Category Buttons -->
+    <div class="category-container">
+      <button class="category-button">All</button>
+      <button class="category-button">UI/UX</button>
+      <button class="category-button active">Web Design</button>
+      <button class="category-button">App Design</button>
+      <button class="category-button">Graphic Design</button>
+    </div>
+
+    <div class="projects-text">
+      <p>
+        Jelajahi portofolio saya dan temukan beragam proyek mulai dari situs bisnis profesional
+        hingga platform kreatif yang dinamis.
+      </p>
+    </div>
+
+    <ul>
+      <li>
+        <img src="img/project.png" alt="Project 1" />
+        <span class="project-category">Web Design</span>
+        <h3 class="project-title">AirCalling Landing Page Design</h3>
+      </li>
+      <li>
+        <img src="img/project.png" alt="Project 2" />
+        <span class="project-category">Web Design</span>
+        <h3 class="project-title">Business Landing Page Design</h3>
+      </li>
+      <li>
+        <img src="img/project.png" alt="Project 3" />
+        <span class="project-category">Web Design</span>
+        <h3 class="project-title">Ecom Web Page Design</h3>
+      </li>
+      <!-- Add more projects if needed -->
+      <li>
+        <img src="img/project.png" alt="Project 4" />
+        <span class="project-category">UI/UX</span>
+        <h3 class="project-title">Mobile App Concept</h3>
+      </li>
+    </ul>
+  </section>
+
+
+
+  <!-- Testimonials -->
+  <section id="testimonials">
+    <h2>Testimonials</h2>
+    <article>
+      <div class="testimonial-image">
+        <img src="img/client.png" alt="Foto Klien 1" />
+      </div>
+      <div class="testimonial-text">
+        <blockquote>
+          Bekerja dengan Samuel sungguh menyenangkan. Kreativitas dan profesionalismenya membuat proyek
+          kami berjalan lancar dan hasilnya melebihi ekspektasi. Sangat direkomendasikan untuk siapa saja
+          yang mencari solusi desain web berkualitas.
+        </blockquote>
+        <p>Client</p>
+      </div>
+    </article>
+  </section>
+
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <form id="contactForm" action="#" method="post" novalidate>
+      <div class="form-group">
+        <input type="text" id="fullName" name="fullName" placeholder="Nama Lengkap" maxlength="100" />
+        <span class="error-message" id="fullNameError"></span> 
+      </div>
+      <div class="form-group">
+        <input type="email" id="email" name="email" placeholder="Enter Email" maxlength="100" />
+        <span class="error-message" id="emailError"></span>
+      </div>
+      <div class="form-group">
+        <input type="tel" id="phone" name="phone" placeholder="Nomor Handphone (+62xxxx / 08xxx)" maxlength="20" />
+        <span class="error-message" id="phoneError"></span> 
+      </div>
+      <div class="form-group">
+        <textarea id="message" name="message" placeholder="Pesan Anda" rows="5" maxlength="500"></textarea>
+        <span class="error-message" id="messageError"></span>
+      </div>
+      <div class="form-group">
+        <button type="submit">Kirim Pesan</button>
+      </div>
+    </form>
+  </section>
+
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <ul>
+        <h3>Tautan</h3>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Portfolio</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <ul>
+        <h3>Kontak</h3>
+        <li>
+          <a href="#">
+            Jalan Paseh, No. 232<br />
+            Kota Tasikmalaya, Jawa Barat<br />
+            +62 82295506082<br />
+            samuelringo0@gmail.com
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <h3>Social Media</h3>
+        <li>
+          <div class="footer-social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <p class="footer-copy">©2025. All rights reserved.</p>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
